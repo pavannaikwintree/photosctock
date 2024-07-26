@@ -6,8 +6,8 @@ const Navbar = () => {
 
     return (
 
-        <nav className="absolute top-0 left-0 w-full bg-opacity-50 text-white p-4 z-50">
-            <div className="max-w-[80%] px-4 mx-auto">
+        <nav className="absolute top-0 left-0 w-full bg-opacity-50 text-white py-4 z-50">
+            <div className="max-w-[90%] px-5 mx-auto">
                 <div className="flex items-center justify-between">
                     <div>
                         <Link to="/">

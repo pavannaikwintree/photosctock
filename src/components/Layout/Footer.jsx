@@ -8,7 +8,7 @@ function Footer() {
 
   return (
     <footer className="bg-gradient-to-r from-gray-100 via-[#bce1ff] to-gray-100">
-      <div className="max-w-[80%] py-16 px-8 mx-auto sm:px-4">
+      <div className="max-w-[90%] py-16 px-8 mx-auto sm:px-5">
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
           <div>
             <Link to={"/"}>
