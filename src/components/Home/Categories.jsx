@@ -1,16 +1,18 @@
-
+import CategoryCard from "./CategoriesCard";
+import { categories } from "../../content/content";
 
 function Categories() {
 
     return (
-        <div className="py-10 max-w-[80%] px-4 mx-auto">
-            <h2 className="text-black font-bold text-3xl">Categories</h2>
-            <article className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 max-w-sm mx-auto mt-20">
-                <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a" alt="University of Southern California" className="absolute inset-0 h-full w-full object-cover" />
-                <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
-                <h3 class="z-10 mt-3 text-3xl font-bold text-white">Paris</h3>
-                <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">City of love</div>
-            </article>
+        <div className="py-5 md:py-10 px-5 max-w-[90%] mx-auto">
+            <h2 className="text-gray-800 font-semibold text-3xl">Explore Categories </h2>
+
+            <div className="flex gap-4 flex-wrap justify-center">
+                {categories.map((cat, index)=>{
+
+                return <CategoryCard category={cat} key={index}/>
+                })}
+            </div>
         </div>
     )
 
