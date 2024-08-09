@@ -15,7 +15,7 @@ function App() {
           element: <HomePage />,
         },
         {
-          path: "/pricing",
+          path: "pricing",
           element: <PricingPage />,
         },
 
@@ -40,4 +40,4 @@ function App() {
   )
 }
 
-export default App
+export default App; 

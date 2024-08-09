@@ -1,3 +1,4 @@
+import { heading } from "../../content/content";
 
 function Hero() {
 
@@ -10,11 +11,11 @@ function Hero() {
 
                 <div className="text-white mb-10">
                     <h1 className=" text-center xl:text-4xl lg:text-3xl md:text-3xl text-2xl font-semibold p-2 rounded-sm">
-                        Elevate Your Creative Projects
+                        {heading.title}
                     </h1>
 
                     <h3 className="text-center md:text-lg text-xs max-w-sm md:max-w-2xl">
-                    Access an exclusive collection of stunning, high-resolution images
+                        {heading.subtitle}
                     </h3>
                 </div>
                 <div className="w-full flex justify-center">

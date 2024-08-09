@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { visa, logo } from "../../assets";
 
@@ -7,25 +6,25 @@ function Footer() {
   const year = date.getFullYear();
 
   return (
-    <footer className="bg-gradient-to-r from-gray-100 via-[#bce1ff] to-gray-100">
+    <footer className="bg-gradient-to-r from-black to-gray-800">
       <div className="max-w-[90%] py-16 px-8 mx-auto sm:px-5">
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
           <div>
             <Link to={"/"}>
               <img src={logo} className="mr-5 h-6 sm:h-14" alt="logo" />
             </Link>
-            <p className="max-w-xs mt-4 text-lg font-bold text-gray-600">
+            <p className="max-w-xs mt-4 text-lg font-bold text-white">
               Tassindal Limited Liability Company
             </p>
-            <p className="max-w-xs mt-4 text-sm text-gray-600">
+            <p className="max-w-xs mt-4 text-sm text-white">
               Unlock academic success with our expert essay writing services.
               Tailored essays for your unique needs. Achieve more with us.
             </p>
-            <p className="max-w-xs mt-4 font-medium text-sm text-black">
+            <p className="max-w-xs mt-4 font-medium text-sm text-white">
               Our Social Handle
             </p>
 
-            <div className="flex mt-6  space-x-6 text-gray-600">
+            <div className="flex mt-6  space-x-6 text-white">
               <a
                 href="https://www.facebook.com/profile.php?id=61561240582244&mibextid=ZbWKwL"
                 className="hover:opacity-75"
@@ -70,8 +69,8 @@ function Footer() {
           </div>
           <div className="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-3">
             <div>
-              <p className="font-medium">Company</p>
-              <nav className="flex flex-col mt-4 space-y-2 text-base text-gray-500">
+              <p className="font-medium text-white">Company</p>
+              <nav className="flex flex-col mt-4 space-y-2 text-base text-white">
                 <Link to={"/pricing"} className="hover:opacity-75">
                   Pricing
                 </Link>
@@ -88,8 +87,8 @@ function Footer() {
               </nav>
             </div> */}
             <div>
-              <p className="font-medium">Company Info</p>
-              <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+              <p className="font-medium text-white">Company Info</p>
+              <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
                 <a href="#" className="hover:opacity-75">
                   Address :- 1141 Budapest, Fischer István utca 123. 2nd floor.
                   Door 16, Hungary
@@ -108,8 +107,8 @@ function Footer() {
               </nav>
             </div>
             <div>
-              <p className="font-medium">Legal</p>
-              <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+              <p className="font-medium text-white">Legal</p>
+              <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
                 <a
                   href="/order/privacy-policy/"
                   target="_blank"
@@ -156,7 +155,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <p className="mt-8 text-xs text-gray-800">
+        <p className="mt-8 text-xs text-white">
           © {year} quillessay.com Powered by Quillessay
         </p>
       </div>

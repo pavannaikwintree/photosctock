@@ -1,3 +1,8 @@
+export const heading= {
+    title: "Elevate Your Creative Projects",
+    subtitle: "Access an exclusive collection of stunning, high-resolution images"
+}
+
 
 export const navlinks = [
     {
